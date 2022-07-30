@@ -51,7 +51,7 @@ This extension does not require any additional extensions to be installed.
 
 ## Extension Settings
 
-Although this extension does not have any settings, you may need to add the following setting to your `.vscode/`settings.json` file to use the extension:
+Although this extension does not have any settings, you may need to add the following setting to your `.vscode/settings.json` file to use the extension:
 
 ```json
 "[bibtex]": {
