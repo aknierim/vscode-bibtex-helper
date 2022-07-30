@@ -42,7 +42,7 @@ BibTeX helper features the following entry types:
 
 ## Usage
 
-Open a BibTeX file in VS Code and either type in the name of the BibTeX entry or use Ctrl+Space to show a list of available snippets.
+Open a BibTeX file in VS Code and either type in the name of the BibTeX entry or use Ctrl+Space to show a list of all available snippets.
 
 
 ## Requirements
