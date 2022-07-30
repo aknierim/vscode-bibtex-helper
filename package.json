@@ -1,0 +1,31 @@
+{
+  "name": "vscode-bibtex-helper",
+  "displayName": "BibTeX helper",
+  "description": "A simple BibTeX snippet extension",
+  "version": "1.0.0",
+  "publisher": "aknierim",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aknierim/vscode-bibtex-helper.git"
+  },
+  "icon": "icon.png",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "bibtex",
+        "path": "./snippets/bibtex.json"
+      },
+      {
+        "language": "latex",
+        "path": "./snippets/bibtex.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,631 @@
+{
+	"Article":{
+		"scope": "bibtex, latex",
+		"prefix": "article",
+		"body": [
+			"@article{${1:key},",
+				"\tauthor  = {},",
+				"\ttitle   = {},",
+				"\tyear    = {},",
+				"\tjournal = {},",
+				"\tseries  = {},",
+				"\tvolume  = {},",
+				"\tnumber  = {},",
+				"\tissue   = {},",
+				"\tpages   = {},",
+				"\tmonth   = {},",
+				"\tpages   = {},",
+				"\tnote    = {}",
+			"}"
+		],
+		"description": "Article"
+	},
+	"Book":{
+		"scope": "bibtex, latex",
+		"prefix": "book",
+		"body": [
+			"@book{${1:key},",
+				"\tauthor    = {},",
+				"\ttitle     = {},",
+				"\tyear      = {},",
+				"\tvolume    = {},",
+				"\tedition   = {},",
+				"\tseries    = {},",
+				"\tnumber    = {},",
+				"\tpublisher = {},",
+				"\tnote      = {},",
+				"\tisbn      = {}",
+			"}"
+		],
+		"description": "Book"
+	},
+	"Multi-volume book":{
+		"scope": "bibtex, latex",
+		"prefix": "mvbook",
+		"body": [
+		"@mvbook{${1:key},",
+			"\tauthor    = {},",
+			"\ttitle     = {},",
+			"\tsubtitle  = {},",
+			"\tyear      = {},",
+			"\tedition   = {},",
+			"\tvolumes   = {},",
+			"\tpublisher = {},",
+			"\tseries    = {},",
+			"\tnumber    = {},",
+			"\tnote      = {},",
+			"\tisbn      = {}",
+		"}"
+		],
+		"description": "Multi-volume book"
+	},
+	"Inbook":{
+		"scope": "bibtex, BibTeX, latex",
+		"prefix": "inbook",
+		"body": [
+		"@inbook{${1:key},",
+			"\tauthor    = {},",
+			"\ttitle     = {},",
+			"\tbooktitle = {},",
+			"\tyear      = {},",
+			"\tbookauthor= {},",
+			"\tsubtitle  = {},",
+			"\tvolumes   = {},",
+			"\tvolume    = {},",
+			"\tedition   = {},",
+			"\tseries    = {},",
+			"\tnumber    = {},",
+			"\tpublisher = {},",
+			"\tnote      = {},",
+			"\tisbn      = {}",
+		"}"
+		],
+		"description": "Inbook"
+	},
+	"Book in Book":{
+		"scope": "bibtex, latex",
+		"prefix": "bookinbook",
+		"body": [
+		"@bookinbook{${1:key},",
+			"\tauthor    = {},",
+			"\ttitle     = {},",
+			"\tbooktitle = {},",
+			"\tyear      = {},",
+			"\tbookauthor= {},",
+			"\tsubtitle  = {},",
+			"\tvolumes   = {},",
+			"\tvolume    = {},",
+			"\tedition   = {},",
+			"\tseries    = {},",
+			"\tnumber    = {},",
+			"\tpublisher = {},",
+			"\tnote      = {},",
+			"\tisbn      = {}",
+		"}"
+		],
+		"description": "Book in Book"
+	},
+	"Supplemental material in book":{
+		"scope": "bibtex, latex",
+		"prefix": "suppbook",
+		"body": [
+		"@suppbook{${1:key},",
+			"\tauthor    = {},",
+			"\ttitle     = {},",
+			"\tbooktitle = {},",
+			"\tyear      = {},",
+			"\tbookauthor= {},",
+			"\tsubtitle  = {},",
+			"\tvolumes   = {},",
+			"\tvolume    = {},",
+			"\tedition   = {},",
+			"\tseries    = {},",
+			"\tnumber    = {},",
+			"\tpublisher = {},",
+			"\tnote      = {},",
+			"\tisbn      = {}",
+		"}"
+		],
+		"description": "Supplemental material in book"
+	},
+	"Booklet":{
+		"scope": "bibtex, latex",
+		"prefix": "booklet",
+		"body": [
+		"@booklet{${1:key},",
+			"\tauthor       = {},",
+			"\ttitle        = {},",
+			"\tyear         = {},",
+			"\thowpublished = {},",
+			"\ttitleaddon   = {},",
+			"\turl          = {},",
+			"\turldate      = {},",
+			"\tnote         = {}",
+		"}"
+		],
+		"description": "Booklet"
+	},
+	"Collection":{
+		"scope": "bibtex, latex",
+		"prefix": "collection",
+		"body": [
+		"@collection{${1:key},",
+			"\teditor    = {},",
+			"\ttitle     = {},",
+			"\tyear      = {},",
+			"\tsubtitle  = {},",
+			"\tpublisher = {},",
+			"\tvolume    = {},",
+			"\tpart      = {},",
+			"\tseries    = {},",
+			"\tnumber    = {},",
+			"\tchapter   = {},",
+			"\tpages     = {},",
+			"\tnote      = {},",
+			"\tedition   = {}",
+		"}"
+		],
+		"description": "Collection"
+	},
+	"Multi-volume Collection":{
+		"scope": "bibtex, latex",
+		"prefix": "mvcollection",
+		"body": [
+		"@mvcollection{${1:key},",
+			"\teditor    = {},",
+			"\ttitle     = {},",
+			"\tyear      = {},",
+			"\tsubtitle  = {},",
+			"\tpublisher = {},",
+			"\tvolumes   = {},",
+			"\tpart      = {},",
+			"\tseries    = {},",
+			"\tnumber    = {},",
+			"\tchapter   = {},",
+			"\tpages     = {},",
+			"\tnote      = {},",
+			"\tedition   = {}",
+		"}"
+		],
+		"description": "Multi-volume Collection"
+	},
+	"In collection":{
+		"scope": "bibtex, latex",
+		"prefix": "incollection",
+		"body": [
+		"@incollection{${1:key},",
+			"\tauthor    = {},",
+			"\ttitle     = {},",
+			"\tbooktitle = {},",
+			"\tyear      = {},",
+			"\teditor    = {},",
+			"\tsubtitle  = {},",
+			"\tpublisher = {},",
+			"\tvolumes   = {},",
+			"\tpart      = {},",
+			"\tseries    = {},",
+			"\tnumber    = {},",
+			"\tchapter   = {},",
+			"\tpages     = {},",
+			"\tnote      = {},",
+			"\tedition   = {}",
+		"}"
+		],
+		"description": "In collection"
+	},
+	"Supplemental material in collection":{
+		"scope": "bibtex, latex",
+		"prefix": "suppcollection",
+		"body": [
+		"@suppcollection{${1:key},",
+			"\teditor    = {},",
+			"\ttitle     = {},",
+			"\tyear      = {},",
+			"\tsubtitle  = {},",
+			"\tpublisher = {},",
+			"\tvolume    = {},",
+			"\tpart      = {},",
+			"\tseries    = {},",
+			"\tnumber    = {},",
+			"\tchapter   = {},",
+			"\tpages     = {},",
+			"\tnote      = {},",
+			"\tedition   = {}",
+		"}"
+		],
+		"description": "Supplemental material in collection"
+	},
+	"Manual":{
+		"scope": "bibtex, latex",
+		"prefix":"manual",
+		"body": [
+		"@manual{${1:key},",
+			"\tauthor       = {},",
+			"\ttitle        = {},",
+			"\tyear         = {},",
+			"\torganization = {},",
+			"\tedition      = {},",
+			"\ttype         = {},",
+			"\tversion      = {},",
+			"\tpublisher    = {},",
+			"\taddress      = {},",
+			"\tnote         = {},",
+			"\turl          = {}",
+		"}"
+		],
+		"description": "Manual"
+	},
+	"Miscellaneous":{
+		"scope": "bibtex, latex",
+		"prefix": "misc",
+		"body": [
+		"@misc{${1:key},",
+			"\tauthor       = {},",
+			"\ttitle        = {},",
+			"\tyear         = {},",
+			"\torganization = {},",
+			"\thowpublished = {},",
+			"\tmonth        = {},",
+			"\turl          = {},",
+			"\tnote         = {}",
+		"}"
+		],
+		"description": "Miscellaneous"
+	},
+	"Online resource":{
+		"scope": "bibtex, latex",
+		"prefix": "online",
+		"body": [
+		"@online{${1:key},",
+			"\tauthor       = {},",
+			"\ttitle        = {},",
+			"\tyear         = {},",
+			"\turl          = {},",
+			"\tsubtitle     = {},",
+			"\torganization = {},",
+			"\tmonth        = {},",
+			"\tnote         = {},",
+			"\turldate      = {}",
+		"}"
+		],
+		"description": "Online resource"
+	},
+	"Patent":{
+		"scope": "bibtex, latex",
+		"prefix": "patent",
+		"body": [
+		"@patent{${1:key},",
+			"\tauthor       = {},",
+			"\ttitle        = {},",
+			"\tnumber       = {},",
+			"\tyear         = {},",
+			"\tholder       = {},",
+			"\tnote         = {}",
+		"}"
+		],
+		"description": "Patent"
+	},
+	"Periodical":{
+		"scope": "bibtex, latex",
+		"prefix": "periodical",
+		"body": [
+		"@periodical{${1:key},",
+			"\teditor       = {},",
+			"\ttitle        = {},",
+			"\tyear         = {},",
+			"\tseries       = {},",
+			"\tvolume       = {},",
+			"\tnumber       = {},",
+			"\tissue        = {},",
+			"\tdate         = {},",
+			"\tmonth        = {},",
+			"\tnote         = {},",
+			"\tdoi          = {}",
+		"}"
+		],
+		"description": "Periodical"
+	},
+	"Supplemental material in periodical":{
+		"scope": "bibtex, latex",
+		"prefix": "suppperiodical",
+		"body": [
+		"@suppperiodical{${1:key},",
+			"\teditor       = {},",
+			"\ttitle        = {},",
+			"\tyear         = {},",
+			"\tseries       = {},",
+			"\tvolume       = {},",
+			"\tnumber       = {},",
+			"\tissue        = {},",
+			"\tdate         = {},",
+			"\tmonth        = {},",
+			"\tnote         = {},",
+			"\tdoi          = {}",
+		"}"
+		],
+		"description": "Supplemental material in periodical"
+	},
+	"Proceedings":{
+		"scope": "bibtex, latex",
+		"prefix": "proceedings",
+		"body": [
+		"@proceedings{${1:key},",
+			"\ttitle        = {},",
+			"\tyear         = {},",
+			"\teditor       = {},",
+			"\tvolume       = {},",
+			"\tseries       = {},",
+			"\tmonth        = {},",
+			"\tpages        = {},",
+			"\torganization = {},",
+			"\tpublisher    = {},",
+			"\tnote         = {}",
+		"}"
+		],
+		"description": "Proceedings"
+	},
+	"Multi-volume proceedings":{
+		"scope": "bibtex, latex",
+		"prefix": "mvproceedings",
+		"body": [
+		"@mvproceedings{${1:key},",
+			"\ttitle        = {},",
+			"\tyear         = {},",
+			"\teditor       = {},",
+			"\tvolumes      = {},",
+			"\tseries       = {},",
+			"\tmonth        = {},",
+			"\tpages        = {},",
+			"\torganization = {},",
+			"\tpublisher    = {},",
+			"\tnote         = {}",
+		"}"
+		],
+		"description": "Multi-volume proceedings"
+	},
+	"Article in conference proceeding":{
+		"scope": "bibtex, latex",
+		"prefix": "inproceedings",
+		"body": [
+		"@inproceedings{${1:key},",
+			"\tauthor       = {},",
+			"\ttitle        = {},",
+			"\tbooktitle    = {},",
+			"\tyear         = {},",
+			"\teditor       = {},",
+			"\tvolume       = {},",
+			"\tseries       = {},",
+			"\tmonth        = {},",
+			"\tpages        = {},",
+			"\torganization = {},",
+			"\tpublisher    = {},",
+			"\tnote         = {}",
+		"}"
+		],
+		"description": "Article in conference proceeding"
+	},
+	"Reference":{
+		"scope": "bibtex, latex",
+		"prefix": "reference",
+		"body": [
+		"@reference{${1:key},",
+			"\teditor    = {},",
+			"\ttitle     = {},",
+			"\tyear      = {},",
+			"\tsubtitle  = {},",
+			"\tpublisher = {},",
+			"\tvolume    = {},",
+			"\tpart      = {},",
+			"\tseries    = {},",
+			"\tnumber    = {},",
+			"\tchapter   = {},",
+			"\tpages     = {},",
+			"\tnote      = {},",
+			"\tedition   = {}",
+		"}"
+		],
+		"description": "Reference"
+	},
+	"Multi-volume Reference":{
+		"scope": "bibtex, latex",
+		"prefix": "mvreference",
+		"body": [
+		"@mvreference{${1:key},",
+			"\teditor    = {},",
+			"\ttitle     = {},",
+			"\tyear      = {},",
+			"\tsubtitle  = {},",
+			"\tpublisher = {},",
+			"\tvolumes   = {},",
+			"\tpart      = {},",
+			"\tseries    = {},",
+			"\tnumber    = {},",
+			"\tchapter   = {},",
+			"\tpages     = {},",
+			"\tnote      = {},",
+			"\tedition   = {}",
+		"}"
+		],
+		"description": "Multi-volume Reference"
+	},
+	"In Reference":{
+		"scope": "bibtex, latex",
+		"prefix": "inreference",
+		"body": [
+		"@inreference{${1:key},",
+			"\tauthor    = {},",
+			"\ttitle     = {},",
+			"\tbooktitle = {},",
+			"\tyear      = {},",
+			"\teditor    = {},",
+			"\tsubtitle  = {},",
+			"\tpublisher = {},",
+			"\tvolumes   = {},",
+			"\tpart      = {},",
+			"\tseries    = {},",
+			"\tnumber    = {},",
+			"\tchapter   = {},",
+			"\tpages     = {},",
+			"\tnote      = {},",
+			"\tedition   = {}",
+		"}"
+		],
+		"description": "In Reference"
+	},
+	"Report":{
+		"scope": "bibtex, latex",
+		"prefix": "report",
+		"body": [
+		"@report{${1:key},",
+			"\tauthor      = {},",
+			"\ttitle       = {},",
+			"\ttype        = {},",
+			"\tinstitution = {},",
+			"\tyear        = {},",
+			"\tchapter     = {},",
+			"\tpages       = {},",
+			"\tmonth       = {},",
+			"\tnote        = {}",
+		"}"
+		],
+		"description": "Report"
+	},
+	"Thesis":{
+		"scope": "bibtex, latex",
+		"prefix": "thesis",
+		"body": [
+		"@thesis{${1:key},",
+			"\tauthor      = {},",
+			"\ttitle       = {},",
+			"\ttype        = {},",
+			"\tinstitution = {},",
+			"\tyear        = {},",
+			"\taddress     = {},",
+			"\tmonth       = {},",
+			"\tnote        = {}",
+		"}"
+		],
+		"description": "Thesis"
+	},
+	"Unpublished":{
+		"scope": "bibtex, latex",
+		"prefix": "unpublished",
+		"body": [
+		"@unpublished{${1:key},",
+			"\tauthor  = {},",
+			"\ttitle   = {},",
+			"\tyear    = {},",
+			"\tmonth   = {},",
+			"\tnote    = {}",
+		"}"
+		],
+		"description": "Unpublished"
+	},
+	"Conference":{
+		"scope": "bibtex, latex",
+		"prefix": "conference",
+		"body": [
+		"@conference{${1:key},",
+			"\tauthor       = {},",
+			"\ttitle        = {},",
+			"\tbooktitle    = {},",
+			"\tyear         = {},",
+			"\teditor       = {},",
+			"\tvolume       = {},",
+			"\tseries       = {},",
+			"\tmonth        = {},",
+			"\tpages        = {},",
+			"\torganization = {},",
+			"\tpublisher    = {},",
+			"\tnote         = {}",
+		"}"
+		],
+		"description": "Conference"
+	},
+	"Electronic resource":{
+		"scope": "bibtex, latex",
+		"prefix": "electronic",
+		"body": [
+		"@electronic{${1:key},",
+			"\tauthor       = {},",
+			"\ttitle        = {},",
+			"\tyear         = {},",
+			"\turl          = {},",
+			"\tsubtitle     = {},",
+			"\torganization = {},",
+			"\tmonth        = {},",
+			"\tnote         = {},",
+			"\turldate      = {}",
+		"}"
+		],
+		"description": "Electronic resource"
+	},
+	"Master's Thesis":{
+		"scope": "bibtex, latex",
+		"prefix": "mastersthesis",
+		"body": [
+		"@mastersthesis{${1:key},",
+			"\tauthor      = {},",
+			"\ttitle       = {},",
+			"\tinstitution = {},",
+			"\tyear        = {},",
+			"\taddress     = {},",
+			"\tmonth       = {},",
+			"\tnote        = {}",
+		"}"
+		],
+		"description": "Masterthesis"
+	},
+	"Phd Thesis":{
+		"scope": "bibtex, latex",
+		"prefix": "phdthesis",
+		"body": [
+		"@phdthesis{${1:key},",
+			"\tauthor      = {},",
+			"\ttitle       = {},",
+			"\tinstitution = {},",
+			"\tyear        = {},",
+			"\taddress     = {},",
+			"\tmonth       = {},",
+			"\tnote        = {}",
+		"}"
+		],
+		"description": "Phd Thesis"
+	},
+	"Technical Report":{
+		"scope": "bibtex, latex",
+		"prefix": "techreport",
+		"body": [
+		"@techreport{${1:key},",
+			"\tauthor      = {},",
+			"\ttitle       = {},",
+			"\ttype        = {},",
+			"\tinstitution = {},",
+			"\tyear        = {},",
+			"\tchapter     = {},",
+			"\tpages       = {},",
+			"\tmonth       = {},",
+			"\tnote        = {}",
+		"}"
+		],
+		"description": "Technical Report"
+	},
+	"Online resource(2)":{
+		"scope": "bibtex, latex",
+		"prefix": "www",
+		"body": [
+		"@www{${1:key},",
+			"\tauthor       = {},",
+			"\ttitle        = {},",
+			"\tyear         = {},",
+			"\turl          = {},",
+			"\tsubtitle     = {},",
+			"\torganization = {},",
+			"\tmonth        = {},",
+			"\tnote         = {},",
+			"\turldate      = {}",
+		"}"
+		],
+		"description": "Online resource(2)"
+	}
+}
