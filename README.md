@@ -10,25 +10,25 @@ BibTeX helper features the following entry types:
 | ----------- | ----------- |
 | Article | `article` |
 | Book | `book` |
-| Multi-volume book | `mvbook` |
+| Multi-volume Book | `mvbook` |
 | Inbook | `inbook` |
 | Book in Book | `bookinbook` |
-| Supplemental material in book | `suppbook` |
+| Supplemental Material in Book | `suppbook` |
 | Booklet | `booklet` |
 | Collection | `collection` |
 | Multi-volume Collection | `mvcollection` |
-| In collection | `incollection` |
-| Supplemental material in collection | `suppcollection` |
+| In Collection | `incollection` |
+| Supplemental Material in Collection | `suppcollection` |
 | Manual | `manual` |
 | Miscellaneous | `misc` |
-| Online resource | `online`, `www` |
+| Online Resource | `online`, `www` |
 | Electronic Resource | `electronic` |
-| Patent| `patent` |
+| Patent | `patent` |
 | Periodical | `periodical` |
-| Supplemental material in periodical | `suppperiodical` |
+| Supplemental Material in Periodical | `suppperiodical` |
 | Proceedings | `proceedings` |
-| Multi-volume proceedings | `mvproceedings` |
-| Article in conference proceeding | `inproceedings` |
+| Multi-volume Proceedings | `mvproceedings` |
+| Article in Conference Proceeding | `inproceedings` |
 | Reference | `reference` |
 | Multi-volume Reference | `mvreference` |
 | In Reference | `inreference` |
